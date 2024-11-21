@@ -1,0 +1,35 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type:application/json
+
+{
+    "name":"Ram",
+    "username":"Ram",
+    "email":"ram@gmail.com",
+    "password":"ram@88"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type:application/json
+
+{
+    "username":"venkat",
+    "password":"venkat@66"
+}
+
+###
+
+GET http://localhost:3000/api/books/
+Content-Type:application/json;
+
+###
+
+POST http://localhost:3000/api/books1
+Content-Type:application/json
+
+{
+    "name":"Ramya"
+}
